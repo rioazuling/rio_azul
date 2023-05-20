@@ -1,11 +1,10 @@
 import CardObras from "../components/CardObras";
 import Container from "../components/Container";
-import obra1 from "../public/obra1.png";
-// import agroalas from "../public/agroalas.png";
-// import bancaria from "../public/bancaria.png";
-// import ploti from "../public/ploti.png";
-// import plotii from "../public/plotii.png";
-// import trapani from "../public/trapani.png";
+import agroalas from "../public/agroalas.png";
+import bancaria from "../public/bancaria.png";
+import ploti from "../public/ploti.png";
+import plotii from "../public/plotii.png";
+import trapani from "../public/trapani.png";
 
 export default function Obras() {
   return (
@@ -22,7 +21,7 @@ export default function Obras() {
               description={
                 "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
               }
-              imageSRC={obra1}
+              imageSRC={agroalas}
               title={"AGROALAS"}
               videoSRC={"https://www.youtube.com/embed/Dv-Kh5q2P7g"}
             />
@@ -31,7 +30,7 @@ export default function Obras() {
               description={
                 "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
               }
-              imageSRC={obra1}
+              imageSRC={ploti}
               title={"PLOT II"}
               videoSRC={"https://www.youtube.com/embed/5T7OBdpCBlo"}
             />
@@ -39,7 +38,7 @@ export default function Obras() {
               description={
                 "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
               }
-              imageSRC={obra1}
+              imageSRC={plotii}
               title={"PLOT I"}
               videoSRC={"https://www.youtube.com/embed/wUXUHbexBzI"}
             />
@@ -48,7 +47,7 @@ export default function Obras() {
               description={
                 "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
               }
-              imageSRC={obra1}
+              imageSRC={bancaria}
               title={"ASOC. BANCARIA"}
               videoSRC={"https://www.youtube.com/embed/llRP1L66xo8"}
             />
@@ -57,7 +56,7 @@ export default function Obras() {
               description={
                 "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
               }
-              imageSRC={obra1}
+              imageSRC={trapani}
               title={"TRAPANI"}
               videoSRC={"https://www.youtube.com/embed/P2FW_NB-ZWU"}
             />
