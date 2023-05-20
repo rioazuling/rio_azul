@@ -22,7 +22,7 @@ export default function Obras() {
                 "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
               }
               imageSRC={agroalas}
-              title={"AGROALASs"}
+              title={"AGROALAS"}
               videoSRC={"https://www.youtube.com/embed/Dv-Kh5q2P7g"}
             />
 
@@ -30,7 +30,7 @@ export default function Obras() {
               description={
                 "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
               }
-              imageSRC={ploti}
+              imageSRC={plotii}
               title={"PLOT II"}
               videoSRC={"https://www.youtube.com/embed/5T7OBdpCBlo"}
             />
@@ -38,7 +38,7 @@ export default function Obras() {
               description={
                 "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
               }
-              imageSRC={plotii}
+              imageSRC={ploti}
               title={"PLOT I"}
               videoSRC={"https://www.youtube.com/embed/wUXUHbexBzI"}
             />
