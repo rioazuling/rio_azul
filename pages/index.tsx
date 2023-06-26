@@ -54,22 +54,22 @@ export default function Home() {
               Diseñamos y construimos naves metalicas con el respaldo de:
             </p>
             <p className="text-xs capitalize sm:uppercase rounded-md relative top-3 bg-blue-50 text-white py-1 px-1 text-center inline-block font-bold">
-              mas de 60 años de experiencia
+              más de 60 años de experiencia
             </p>
           </div>
           {/*  */}
           <div className="flex flex-wrap w-10/12 sm:w-80 ">
             <div className="border-2 rounded-md border-blue-50 m-1 self-center capitalize text-sm px-1.5 py-1 text-blue-50 dark:text-white">
-              depositos
+              Depósitos
             </div>
             <div className="border-2 rounded-md border-blue-50 m-1 self-center capitalize text-sm px-1.5 py-1 text-blue-50 dark:text-white">
-              naves industriales
+              Naves Industriales
             </div>
             <div className="border-2 rounded-md border-blue-50 m-1 self-center capitalize text-sm px-1.5 py-1 text-blue-50 dark:text-white">
-              construcciones metalicas
+              Construcciones Metálicas
             </div>
             <div className="border-2 rounded-md border-blue-50 m-1 self-center capitalize text-sm px-1.5 py-1 text-blue-50 dark:text-white">
-              centros de distribucion
+              Centros de Distribución
             </div>
           </div>
         </div>
@@ -115,21 +115,21 @@ export default function Home() {
                 "Consideramos los puntos de anclaje como nudos estructurales críticos, es por ello que se fabrican siempre con pernos de anclaje de alta resistencia, roscados, permitiendo un rápido y preciso montaje, y en caso de requerirlo un tiempo de desmontaje mínimo."
               }
               imageSRC={sitdeanclaje}
-              title={"Sistemas de anclaje"}
+              title={"Sistemas de Anclaje"}
             />
             <CardHome
               description={
-                "La calidad de los materiales empleados nos permite dar una excleente aislación térmica a nuestras naves, según las especificaciones de nuestros clientes, utilizando desde lana de vidrio con foil, pasando por membranas de diferentes tipos, hasta los paneles sándwich."
+                "La calidad de los materiales empleados nos permite dar una exclente aislación térmica a nuestras naves, según las especificaciones de nuestros clientes, utilizando desde lana de vidrio con foil, pasando por membranas de diferentes tipos, hasta los paneles sándwich."
               }
               imageSRC={aislacionesTermicas}
-              title={"Aislaciones térmicas"}
+              title={"Aislaciones Térmicas"}
             />
             <CardHome
               description={
                 "Las estructuras son protegidas de la corrosión por fosfatizado, y se aplican pinturas con dispositivos Air Less en cabina automática utilizando diferentes tipos de revestimientos industriales, acrílicos, poliuretanicos, epoxies, etc."
               }
               imageSRC={pinturas}
-              title={"Pinturas"}
+              title={"Cabina Automática"}
             />
           </div>
         </div>
@@ -169,7 +169,7 @@ export default function Home() {
             humana y profesional de nuestra gente y por nuestra contribución a la comunidad.”
           </p>
           <p className="text-base sm:text-lg mb-4 text-black dark:text-gray-400">
-            <span className="font-bold">Misión</span>: “Ser referentes Tucumán y el NOA, en el
+            <span className="font-bold">Misión</span>: “Ser referentes en Tucumán y NOA, en 
             diseño, fabricación y montaje de naves industriales, y afines, entregando soluciones a
             nuestros clientes que satisfagan sus expectativas, en tiempo y forma, brindándoles
             productos de calidad y con excelencia en el servicio”.
@@ -178,16 +178,16 @@ export default function Home() {
           <div>
             <span className="font-bold text-base sm:text-lg">Valores</span>:
             <div className="grid w-full grid-cols-1 gap-4 my-2 mt-4 sm:grid-cols-2">
-              <Valores title={"cercania"} />
-              <Valores title={"innovacion"} />
+              <Valores title={"cercanía"} />
+              <Valores title={"innovación"} />
               <Valores title={"compromiso con el cliente"} />
               <Valores title={"creatividad para dar soluciones"} />
               <Valores title={"respeto por el valor de la palabra"} />
-              <Valores title={"garantia"} />
-              <Valores title={"flexibilidad / adaptabilidada"} />
+              <Valores title={"garantía"} />
+              <Valores title={"flexibilidad / adaptabilidad"} />
               <Valores title={"respaldo"} />
               <Valores title={"capacidad de aprendizaje"} />
-              <Valores title={"precision"} />
+              <Valores title={"precisión"} />
             </div>
           </div>
         </div>
