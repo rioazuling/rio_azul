@@ -5,7 +5,7 @@ import CardHome from "../components/CardHome";
 import Container from "../components/Container";
 import Valores from "../components/Valores";
 import foto1 from "../public/foto1.png";
-import obra2 from "../public/obra2.png";
+import cubiertaestanca from "../public/cubiertaestanca.png";
 import sistAmpliable from "../public/sistAmpliable.png";
 import rapidezdemontaje from "../public/rapidezdemontaje.png";
 import sitdeanclaje from "../public/sitdeanclaje.png";
@@ -135,7 +135,7 @@ export default function Home() {
         </div>
         {/*  */}
         <div className="flex justify-center px-1 mx-auto sm:px-0 max-w-3xl w-full">
-          <Image alt="obra-2" className="w-full h-auto" src={obra2} />
+          <Image alt="cubiertaestanca" className="w-full h-auto" src={cubiertaestanca} />
         </div>
 
         <div className="flex flex-col items-start justify-center max-w-3xl mx-auto my-2 px-4 sm:px-0">
