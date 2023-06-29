@@ -5,6 +5,7 @@ import bancaria from "../public/bancaria.png";
 import ploti from "../public/ploti.png";
 import plotii from "../public/plotii.png";
 import trapani from "../public/trapani.png";
+import madpadel from "../public/madpadel.png";
 
 export default function Obras() {
   return (
@@ -19,7 +20,7 @@ export default function Obras() {
           <div className="grid w-full grid-cols-1 gap-4 my-2 mt-4">
             <CardObras
               description={
-                "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
+                "Nave Agro-Industrial ubicada en la localidad de LAS CEJAS, CRUZ ALTA, TUCUMAN."
               }
               imageSRC={agroalas}
               title={"AGROALAS"}
@@ -28,7 +29,7 @@ export default function Obras() {
 
             <CardObras
               description={
-                "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
+                " Nave Industrial Ubicada en Parque Logistico PLOT."
               }
               imageSRC={plotii}
               title={"PLOT II"}
@@ -36,7 +37,7 @@ export default function Obras() {
             />
             <CardObras
               description={
-                "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
+                "Nave Industrial Ubicada en Parque Logistico PLOT."
               }
               imageSRC={ploti}
               title={"PLOT I"}
@@ -45,7 +46,7 @@ export default function Obras() {
 
             <CardObras
               description={
-                "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
+                "Estructuras metálicas y cubiertas realizadas para el Complejo de Trabajadores Bancarios."
               }
               imageSRC={bancaria}
               title={"ASOC. BANCARIA"}
@@ -54,11 +55,21 @@ export default function Obras() {
 
             <CardObras
               description={
-                "Nuestro diseño tiene en cuenta siempre las futuras ampliaciones requeridas por el cliente, logrando así unificar las distintas etapas durante la evolución de todo el proyecto."
+                "Nave Agro-Industrial, utilizada para exportación de cítricos."
               }
               imageSRC={trapani}
               title={"TRAPANI"}
               videoSRC={"https://www.youtube.com/embed/P2FW_NB-ZWU"}
+            />
+
+            <CardObras
+              description={
+                "Estructura Metálica y cubiertas, utilizadas para deportes y recreación."
+              }
+              imageSRC={madpadel}
+              title={"MAD PADEL CLUB"}
+              videoSRC={"https://www.youtube.com/embed/5p6xT8MrPHA"}
+              
             />
           </div>
         </div>
