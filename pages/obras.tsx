@@ -6,7 +6,6 @@ import ploti from "../public/ploti.png";
 import plotii from "../public/plotii.png";
 import trapani from "../public/trapani.png";
 import madpadel from "../public/madpadel.png";
-
 export default function Obras() {
   return (
     <>
@@ -69,6 +68,10 @@ export default function Obras() {
               imageSRC={madpadel}
               title={"MAD PADEL CLUB"}
               videoSRC={"https://www.youtube.com/embed/5p6xT8MrPHA"}
+              
+              
+           
+            
               
             />
           </div>

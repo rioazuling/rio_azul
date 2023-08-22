@@ -5,7 +5,7 @@ import CardHome from "../components/CardHome";
 import Container from "../components/Container";
 import Valores from "../components/Valores";
 import foto1 from "../public/foto1.png";
-import cubiertaestanca from "../public/cubiertaestanca.png";
+import cubiestanca from "../public/cubiestanca.png";
 import sistAmpliable from "../public/sistAmpliable.png";
 import rapidezdemontaje from "../public/rapidezdemontaje.png";
 import sitdeanclaje from "../public/sitdeanclaje.png";
@@ -51,10 +51,10 @@ export default function Home() {
               <span className="text-white font-serif text-3xl relative -top-1.5 ml-[5px]">+</span>
             </div>
             <p className="text-blue-50 font-semibold text-base sm:text-2xl">
-              Diseñamos y construimos naves metalicas con el respaldo de:
+              Diseñamos y construimos naves metálicas con el respaldo de:
             </p>
             <p className="text-xs capitalize sm:uppercase rounded-md relative top-3 bg-blue-50 text-white py-1 px-1 text-center inline-block font-bold">
-              más de 60 años de experiencia
+              más de 60 años de experiencia.
             </p>
           </div>
           {/*  */}
@@ -135,7 +135,7 @@ export default function Home() {
         </div>
         {/*  */}
         <div className="flex justify-center px-1 mx-auto sm:px-0 max-w-3xl w-full">
-          <Image alt="cubiertaestanca" className="w-full h-auto" src={cubiertaestanca} />
+          <Image alt="cubiertaestanca" className="w-full h-auto" src={cubiestanca} />
         </div>
 
         <div className="flex flex-col items-start justify-center max-w-3xl mx-auto my-2 px-4 sm:px-0">
@@ -165,11 +165,11 @@ export default function Home() {
 
           <p className="text-base sm:text-lg mb-4 text-black dark:text-gray-400">
             <span className="font-bold">Visión</span>: “Ser una empresa reconocida, y elegida, por
-            nuestro respeto, compromiso e innovación y productos y servicios, además de la calidad
+            nuestro respeto, compromiso e innovación en productos y servicios, por la calidad
             humana y profesional de nuestra gente y por nuestra contribución a la comunidad.”
           </p>
           <p className="text-base sm:text-lg mb-4 text-black dark:text-gray-400">
-            <span className="font-bold">Misión</span>: “Ser referentes en Tucumán y NOA, en 
+            <span className="font-bold">Misión</span>: “Ser REFERENTES en 
             diseño, fabricación y montaje de naves industriales, y afines, entregando soluciones a
             nuestros clientes que satisfagan sus expectativas, en tiempo y forma, brindándoles
             productos de calidad y con excelencia en el servicio”.
@@ -178,16 +178,16 @@ export default function Home() {
           <div>
             <span className="font-bold text-base sm:text-lg">Valores</span>:
             <div className="grid w-full grid-cols-1 gap-4 my-2 mt-4 sm:grid-cols-2">
-              <Valores title={"cercanía"} />
-              <Valores title={"innovación"} />
-              <Valores title={"compromiso con el cliente"} />
-              <Valores title={"creatividad para dar soluciones"} />
-              <Valores title={"respeto por el valor de la palabra"} />
-              <Valores title={"garantía"} />
-              <Valores title={"flexibilidad / adaptabilidad"} />
-              <Valores title={"respaldo"} />
-              <Valores title={"capacidad de aprendizaje"} />
-              <Valores title={"precisión"} />
+              <Valores title={"Compromiso con el cliente"} />
+              <Valores title={"Innovación"} />
+              <Valores title={"Compromiso con el cliente"} />
+              <Valores title={"Creatividad para dar soluciones"} />
+              <Valores title={"Respeto por el valor de la palabra"} />
+              <Valores title={"Garantía"} />
+              <Valores title={"Flexibilidad / adaptabilidad"} />
+              <Valores title={"Respaldo"} />
+              <Valores title={"Capacidad de aprendizaje"} />
+              <Valores title={"Precisión"} />
             </div>
           </div>
         </div>
