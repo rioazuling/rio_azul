@@ -6,6 +6,9 @@ import ploti from "../public/ploti.png";
 import plotii from "../public/plotii.png";
 import trapani from "../public/trapani.png";
 import madpadel from "../public/madpadel.png";
+import bradel from "../public/bradel.png";
+import cofaral from "../public/cofaral.png";
+import argenti from "../public/argenti.png";
 export default function Obras() {
   return (
     <>
@@ -68,11 +71,44 @@ export default function Obras() {
               imageSRC={madpadel}
               title={"MAD PADEL CLUB"}
               videoSRC={"https://www.youtube.com/embed/5p6xT8MrPHA"}
+             
+            />
+
+            <CardObras
+              description={
+                "Centro de Distribucion Farmaceutico en San Miguel de Tucumán."
+              }
+              imageSRC={bradel}
+              title={"DEL PUEBLO FARMACIAS"}
+              videoSRC={"https://www.youtube.com/embed/knW-sSHbEfM"}
+              
+            
+            />
+            
+
+            <CardObras
+              description={
+                "Ampliación de Camara Frigorífica para Exportación ubicada en San Andrés, Tucumán."
+              }
+              imageSRC={argenti}
+              title={"ARGENTILEMON"}
+              videoSRC={"https://www.youtube.com/embed/KccKk4qS378"}
+              
+             
+            />
+             <CardObras
+              description={
+                "Centro de Distribucion Farmaceutico ubicado en Parque Industrial Tucumán."
+              }
+              imageSRC={cofaral}
+              title={"COFARAL"}
+              videoSRC={"https://www.youtube.com/embed/1_dFfp4slTc"}
               
               
            
             
               
+            
             />
           </div>
         </div>
